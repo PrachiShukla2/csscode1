@@ -1,0 +1,27 @@
+*{
+   border : 1px solid black;
+}
+body{
+    font-size: 22px;
+    border: 20px solid black
+}
+h1,h2{
+    color:crimson;
+}
+p{
+    color:blueviolet;
+}
+
+.highlight{
+    text-transform:uppercase;
+    background-color:gold;
+}
+.gray{
+    color:blueviolet;
+}
+.purple{
+    color:blueviolet;
+}
+#second{
+    font-style:italic;
+}
