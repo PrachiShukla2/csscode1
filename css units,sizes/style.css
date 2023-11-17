@@ -1,0 +1,9 @@
+header {
+width : 50%
+}
+h1{
+    border: 2px dashed rgb(183, 10, 79);
+}
+p{
+  font-size: 26px;  
+}
