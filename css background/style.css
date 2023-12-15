@@ -9,6 +9,18 @@
 body {
   font-family: "Nunito", sans-serif;
   min-height: 100vh;
+  background-color: aliceblue;
+  background-image: url('../css\ background/bubbles.png'),
+                    linear-gradient(to left,steelblue,purple,white);
+
+}
+.container{
+  background-color: antiquewhite;
+
+  background-image: url('../css\ background/scenic-2200x1331.png');
+  background-repeat: repeat;
+  background-size:cover;
+  background-position: bottom right;
 }
 
 .hero{
@@ -18,17 +30,18 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap:30px;
-  background-color: antiquewhite;
-
-  background-image: url('../css\ background/scenic-2200x1331.png');
-  background-repeat: repeat;
+  background-color: hsla(0, 0%, 0%,0.40);
   /* i also comes for background-repeat:no-repeat,repeat-y , repeat-x*/
 
 }
 
 .h1{
+  font-size: 500;
   color:darkcyan;
-  background-color: hsla(0, 0%, 0%,0.40);
+  text-shadow:2px 2px 5px #000;
+  /* background-color: hsla(0, 0%, 0%,0.40);
+  padding: 0.25rem;
+  border: radius 10px; */
 }
 
 .profile-pic-figure{
