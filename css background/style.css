@@ -64,7 +64,17 @@ body {
     width: 25%;
     height:auto;
 }
+.clip{
+  font-weight:800;
+  font-size: 18rem;
+  text-align : center;
+  background-image:url('../css\ background/scenic-2200x1331.png');
+  background-size:100%;
+  -webkit-background-clip:text;
+  color:hsla(0, 0%, 0%,0.196)
+
+}
 
 
-
-
+/* C:\Web D\csscode1\css background\scenic-2200x1331.png
+'../css\ background/scenic-2200x1331.png'*/
